@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Services</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: white;
+        }
+        .service-item {
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 30%;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+        .service-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .service-item h3 {
+            color: #333;
+            margin-top: 15px;
+        }
+        .service-item p {
+            color: #666;
+            margin-top: 10px;
+        }
+        .cta-button {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #e53e36;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Photography Services</h1>
+    <p>Capturing moments that last a lifetime</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="services">
+    <div class="service-item">
+        <img src="portrait-photography.jpg" alt="Portrait Photography">
+        <h3>Portrait Photography</h3>
+        <p>Our portrait sessions are designed to highlight your personality, whether it’s a personal or family portrait. Let us capture your unique style.</p>
+        <a href="contact.html" class="cta-button">Book Now</a>
+    </div>
+    
+    <div class="service-item">
+        <img src="wedding-photography.jpg" alt="Wedding Photography">
+        <h3>Wedding Photography</h3>
+        <p>We specialize in capturing the love, laughter, and special moments of your big day. Trust us to preserve the magic of your wedding.</p>
+        <a href="contact.html" class="cta-button">Book Now</a>
+    </div>
+
+    <div class="service-item">
+        <img src="corporate-photography.jpg" alt="Corporate Photography">
+        <h3>Corporate Photography</h3>
+        <p>Make your business stand out with professional photos for branding, events, and corporate portraits. We help showcase your company’s best face.</p>
+        <a href="contact.html" class="cta-button">Book Now</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Your Photography Studio]. All rights reserved.</p>
+    <p>Follow us on <a href="https://instagram.com" target="_blank" style="color: #ff6347;">Instagram</a>, <a href="https://facebook.com" target="_blank" style="color: #ff6347;">Facebook</a></p>
+</footer>
+
+</body>
+</html>
